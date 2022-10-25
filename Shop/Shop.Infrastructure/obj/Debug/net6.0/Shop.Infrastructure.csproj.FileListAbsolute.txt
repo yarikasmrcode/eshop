@@ -1,0 +1,17 @@
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\bin\Debug\net6.0\Shop.Infrastructure.deps.json
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\bin\Debug\net6.0\Shop.Infrastructure.dll
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\bin\Debug\net6.0\Shop.Infrastructure.pdb
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\bin\Debug\net6.0\Shop.Core.dll
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\bin\Debug\net6.0\Shop.Core.pdb
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.csproj.AssemblyReference.cache
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.AssemblyInfoInputs.cache
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.AssemblyInfo.cs
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.csproj.CoreCompileInputs.cache
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.csproj.CopyComplete
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.dll
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\refint\Shop.Infrastructure.dll
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.pdb
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\ref\Shop.Infrastructure.dll
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\bin\Debug\net6.0\Shop.Infrastructure.runtimeconfig.json
+A:\AmdarisFinalProject\Shop\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.genruntimeconfig.cache

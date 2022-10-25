@@ -1,0 +1,12 @@
+A:\AmdarisFinalProject\Shop\Shop.Core\bin\Debug\net6.0\Shop.Core.deps.json
+A:\AmdarisFinalProject\Shop\Shop.Core\bin\Debug\net6.0\Shop.Core.dll
+A:\AmdarisFinalProject\Shop\Shop.Core\bin\Debug\net6.0\Shop.Core.pdb
+A:\AmdarisFinalProject\Shop\Shop.Core\obj\Debug\net6.0\Shop.Core.csproj.AssemblyReference.cache
+A:\AmdarisFinalProject\Shop\Shop.Core\obj\Debug\net6.0\Shop.Core.GeneratedMSBuildEditorConfig.editorconfig
+A:\AmdarisFinalProject\Shop\Shop.Core\obj\Debug\net6.0\Shop.Core.AssemblyInfoInputs.cache
+A:\AmdarisFinalProject\Shop\Shop.Core\obj\Debug\net6.0\Shop.Core.AssemblyInfo.cs
+A:\AmdarisFinalProject\Shop\Shop.Core\obj\Debug\net6.0\Shop.Core.csproj.CoreCompileInputs.cache
+A:\AmdarisFinalProject\Shop\Shop.Core\obj\Debug\net6.0\Shop.Core.dll
+A:\AmdarisFinalProject\Shop\Shop.Core\obj\Debug\net6.0\refint\Shop.Core.dll
+A:\AmdarisFinalProject\Shop\Shop.Core\obj\Debug\net6.0\Shop.Core.pdb
+A:\AmdarisFinalProject\Shop\Shop.Core\obj\Debug\net6.0\ref\Shop.Core.dll

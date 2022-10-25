@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "tBlWVL9+GqXOIA+SHd+1Ul9JpEa3IZ0MdvqImDh6nMk=",
+  "Source": "Shop.Api",
+  "BasePath": "_content/Shop.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Shop.Api\\wwwroot",
+      "Source": "Shop.Api",
+      "ContentRoot": "A:\\AmdarisFinalProject\\Shop\\Shop.Api\\wwwroot\\",
+      "BasePath": "_content/Shop.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
