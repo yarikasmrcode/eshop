@@ -1,6 +1,7 @@
-﻿using Shop.Core.Entities;
+﻿using Shop.Api.Entities;
+using Shop.Core.Entities;
 
-namespace Shop.Api.Entities
+namespace Shop.Core.Entities
 {
     public class Product : BaseEntity
     {

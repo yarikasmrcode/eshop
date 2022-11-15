@@ -4,9 +4,8 @@
     { 
         public ApiValidationErrorResponse() : base(404)
         {
-
+                
         }
-
         public IEnumerable<string> Errors { get; set; }
     }
 }

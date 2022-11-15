@@ -14,5 +14,11 @@ namespace Shop.Core.Interfaces
         Task<IReadOnlyList<T>> GetAllAsync();
         Task<T> GetEntityWithSpecification(ISpecification<T> specification);
         Task<IReadOnlyList<T>> ListAsync(ISpecification<T> specification);
+        Task<int> CountAsync(ISpecification<T> spec);
+
+        //we only track those, not add to db. uow adds to db, not repo
+        void Add(T entity);
+        void Update(T entity);
+        void Delete(T entity);
     }
 }

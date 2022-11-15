@@ -31,6 +31,11 @@ namespace Shop.Infrastructure.Data
                 query = query.OrderByDescending(specification.OrderByDesc);
             }
 
+            if (specification.IsPagingEnabled)
+            {
+                query = query.Skip(specification.Skip).Take(specification.Take);
+            }
+
             //aggregates two include queries
             query = specification.Includes.Aggregate(query, (current, include) => 
                                                             current.Include(include));

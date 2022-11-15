@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Shop.Api.Data;
 using Shop.Api.Entities;
+using Shop.Core.Entities;
 using Shop.Core.Interfaces;
 using System;
 using System.Collections.Generic;

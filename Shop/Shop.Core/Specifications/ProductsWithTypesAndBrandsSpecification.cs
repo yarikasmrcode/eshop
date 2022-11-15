@@ -1,24 +1,28 @@
-﻿using Shop.Api.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+using Shop.Api.Entities;
+using Shop.Core.Entities;
+using Shop.Core.Specifications;
 
 namespace Shop.Core.Specifications
 {
-    public class ProductsWithTypesAndBrandsSpecification :  BaseSpecification<Product>
+    public class ProductsWithTypesAndBrandsSpecification : BaseSpecification<Product>
     {
-        public ProductsWithTypesAndBrandsSpecification(string sort)
+        public ProductsWithTypesAndBrandsSpecification(ProductSpecificationParams productParams)
+            : base(x =>
+                (string.IsNullOrEmpty(productParams.Search) || x.Name.ToLower().Contains(productParams.Search)) &&
+                (!productParams.BrandId.HasValue || x.ProductBrandId == productParams.BrandId) &&
+                (!productParams.TypeId.HasValue || x.ProductTypeId == productParams.TypeId)
+            )
         {
             AddInclude(x => x.ProductType);
             AddInclude(x => x.ProductBrand);
             AddOrderBy(x => x.Name);
+            ApplyPaging(productParams.PageSize * (productParams.PageIndex - 1), productParams.PageSize);
 
-            if (!string.IsNullOrEmpty(sort))
+            if (!string.IsNullOrEmpty(productParams.Sort))
             {
-                switch (sort)
+                switch (productParams.Sort)
                 {
                     case "priceAsc":
                         AddOrderBy(p => p.Price);
@@ -32,8 +36,9 @@ namespace Shop.Core.Specifications
                 }
             }
         }
-            
-        public ProductsWithTypesAndBrandsSpecification(int id) : base(x => x.Id == id)
+
+        public ProductsWithTypesAndBrandsSpecification(int id)
+            : base(x => x.Id == id)
         {
             AddInclude(x => x.ProductType);
             AddInclude(x => x.ProductBrand);

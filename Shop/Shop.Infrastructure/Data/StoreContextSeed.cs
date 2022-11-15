@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Shop.Api.Data;
 using Shop.Api.Entities;
+using Shop.Core.Entities.OrderAggregate;
 
 namespace Infrastructure.Data
 {
@@ -14,7 +15,7 @@ namespace Infrastructure.Data
     {
         public static async Task SeedAsync(StoreContext context, ILoggerFactory loggerFactory)
         {
-            try
+            /*try
             {
                 if (!context.ProductBrands.Any())
                 {
@@ -39,7 +40,7 @@ namespace Infrastructure.Data
                         context.ProductTypes.Add(item);
                     }
 
-                    await context.SaveChangesAsync();
+                     await context.SaveChangesAsync();
                 }
 
                 if (!context.Products.Any())
@@ -54,12 +55,25 @@ namespace Infrastructure.Data
 
                     await context.SaveChangesAsync();
                 }
+
+                if (!context.DeliveryMethods.Any())
+                {
+                    var dmData = File.ReadAllText("../Shop.Infrastructure/Data/SeedData/delivery.json");
+                    var methods = JsonSerializer.Deserialize<List<DeliveryMethod>>(dmData);
+
+                    foreach (var item in methods)
+                    {
+                        context.DeliveryMethods.Add(item);
+                    }
+
+                    await context.SaveChangesAsync();
+                }
             }
             catch (Exception ex)
             {
                 var logger = loggerFactory.CreateLogger<StoreContextSeed>();
                 logger.LogError(ex, "Failed to seed");
-            }
+            }*/
         }
     }
 }

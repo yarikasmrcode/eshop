@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Shop.Api.Data;
 using Shop.Api.Errors;
@@ -11,6 +12,13 @@ namespace Shop.Api.Controllers
         public BugController(StoreContext context)
         {
             _context = context;
+        }
+
+        [HttpGet("testauth")]
+        [Authorize]
+        public ActionResult<string> GetSecretText()
+        {
+            return "secret text";
         }
 
         [HttpGet("notfound")]
@@ -44,7 +52,5 @@ namespace Shop.Api.Controllers
         {
             return Ok();
         }
-
-
     }
 }

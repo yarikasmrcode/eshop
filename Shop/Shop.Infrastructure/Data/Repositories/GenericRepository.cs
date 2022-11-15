@@ -19,6 +19,21 @@ namespace Shop.Infrastructure.Data.Repositories
             _context = context;
         }
 
+        public void Add(T entity)
+        {
+            _context.Set<T>().Add(entity);
+        }
+
+        public async Task<int> CountAsync(ISpecification<T> spec)
+        {
+            return await ApplySpecification(spec).CountAsync();
+        }
+
+        public void Delete(T entity)
+        {
+            _context.Set<T>().Remove(entity);
+        }
+
         public async Task<IReadOnlyList<T>> GetAllAsync()
         {
             return await _context.Set<T>().ToListAsync();
@@ -37,6 +52,12 @@ namespace Shop.Infrastructure.Data.Repositories
         public async Task<IReadOnlyList<T>> ListAsync(ISpecification<T> specification)
         {
             return await ApplySpecification(specification).ToListAsync();
+        }
+
+        public void Update(T entity)
+        {
+            _context.Set<T>().Attach(entity);
+            _context.Entry(entity).State = EntityState.Modified;
         }
 
         private IQueryable<T> ApplySpecification(ISpecification<T> specification)

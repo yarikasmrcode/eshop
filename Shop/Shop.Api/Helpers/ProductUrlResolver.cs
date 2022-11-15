@@ -2,6 +2,7 @@
 using AutoMapper.Execution;
 using Shop.Api.DTOs;
 using Shop.Api.Entities;
+using Shop.Core.Entities;
 
 namespace Shop.Api.Helpers
 {

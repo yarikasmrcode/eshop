@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "ShortName": "NovaPoshta",
+    "Description": "Fastest delivery time",
+    "DeliveryTime": "1-2 Days",
+    "Price": 70
+  },
+  {
+    "Id": 2,
+    "ShortName": "UkrPoshta",
+    "Description": "Takes up to 5 days",
+    "DeliveryTime": "1-5 Days",
+    "Price": 50
+  },
+  {
+    "Id": 3,
+    "ShortName": "OLXPoshta",
+    "Description": "7 days",
+    "DeliveryTime": "5-10 Days",
+    "Price": 30
+  },
+  {
+    "Id": 4,
+    "ShortName": "FREE",
+    "Description": "May take some time",
+    "DeliveryTime": "15 days",
+    "Price": 0
+  }
+]

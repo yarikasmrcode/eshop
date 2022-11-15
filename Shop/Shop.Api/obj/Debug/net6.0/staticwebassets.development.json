@@ -1,1 +1,1 @@
-{"ContentRoots":["A:\\AmdarisFinalProject\\Shop\\Shop.Api\\wwwroot\\"],"Root":{"Children":null,"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}
+{"ContentRoots":["A:\\AmdarisFinalProject\\Shop\\Shop.Api\\wwwroot\\"],"Root":{"Children":{"images":{"Children":{"products":{"Children":{"pic.jpg":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"images/products/pic.jpg"},"Patterns":null}},"Asset":null,"Patterns":null}},"Asset":null,"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}

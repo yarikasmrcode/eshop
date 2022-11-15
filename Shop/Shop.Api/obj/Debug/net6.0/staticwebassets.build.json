@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tBlWVL9+GqXOIA+SHd+1Ul9JpEa3IZ0MdvqImDh6nMk=",
+  "Hash": "wrAndHYtYRXbBrBkdFJx2xfFXytv3U5J/0sh+VlwoQs=",
   "Source": "Shop.Api",
   "BasePath": "_content/Shop.Api",
   "Mode": "Default",
@@ -15,5 +15,23 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "A:\\AmdarisFinalProject\\Shop\\Shop.Api\\wwwroot\\images\\products\\pic.jpg",
+      "SourceId": "Shop.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\AmdarisFinalProject\\Shop\\Shop.Api\\wwwroot\\",
+      "BasePath": "_content/Shop.Api",
+      "RelativePath": "images/products/pic.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\pic.jpg"
+    }
+  ]
 }
