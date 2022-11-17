@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/xsKgvKT/BQV2Z2our7EDDhShAXNcZmksMtSu3iuvYOLjLSiGGSMaPI3ZPSo/Zakk84XOu+rR8yYCS6C3Bj99Q==",
+  "dgSpecHash": "h5LUcdHxc9xqkjALaTdbt+RSkLOUHFDK+24bUf9t2UuPshrjb8EnUk1z7mSMylMSwgDtmeAoijfY8ZdiunPaFQ==",
   "success": true,
   "projectFilePath": "A:\\AmdarisFinalProject\\Shop\\Shop.Core\\Shop.Core.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Acer\\.nuget\\packages\\stripe.net\\40.17.0-beta.1\\stripe.net.40.17.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\stripe.net\\40.16.0\\stripe.net.40.16.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

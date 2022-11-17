@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "95IMbYrbt0+8OZuUwueIbUIZV/CIIbsk4rVd+xXmpBprBTpuUMUYT5r5/9m6ZvJDaKXpVz4cW5sNU9o9Mjsy0A==",
+  "dgSpecHash": "cVWl9i847mBwEDoA76SBATYX31xievCAZnJGtknVe3rtcdVFQewcEv/GCZErsJ9w+OxIVnFhmDm00IR8BCxRQw==",
   "success": true,
   "projectFilePath": "A:\\AmdarisFinalProject\\Shop\\Shop.Api\\Shop.Api.csproj",
   "expectedPackageFiles": [
@@ -68,7 +68,7 @@
     "C:\\Users\\Acer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\stackexchange.redis\\2.6.70\\stackexchange.redis.2.6.70.nupkg.sha512",
-    "C:\\Users\\Acer\\.nuget\\packages\\stripe.net\\40.17.0-beta.1\\stripe.net.40.17.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\stripe.net\\40.16.0\\stripe.net.40.16.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

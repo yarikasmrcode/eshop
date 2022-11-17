@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tY9lyycoKjnKN3tmVYBHAynnOhki817BQki1koE/NFG9qwoCjbR5PivpyUcuVQsWRVQwroc+Io5SHCWA1PGJZQ==",
+  "dgSpecHash": "xeEq0SucIGb7/rG+fYqFxL7g5Pqm8T3Cv5sYQLPXgxPph3u3uBQLaNADMWrBEXdkFi+IXhntNBIKhk9xEKuJzg==",
   "success": true,
   "projectFilePath": "A:\\AmdarisFinalProject\\Shop\\Shop.Infrastructure\\Shop.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -63,7 +63,7 @@
     "C:\\Users\\Acer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\stackexchange.redis\\2.6.70\\stackexchange.redis.2.6.70.nupkg.sha512",
-    "C:\\Users\\Acer\\.nuget\\packages\\stripe.net\\40.17.0-beta.1\\stripe.net.40.17.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\stripe.net\\40.16.0\\stripe.net.40.16.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",

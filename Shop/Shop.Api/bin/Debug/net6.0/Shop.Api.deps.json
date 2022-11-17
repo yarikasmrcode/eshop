@@ -579,15 +579,15 @@
           }
         }
       },
-      "Stripe.net/40.17.0-beta.1": {
+      "Stripe.net/40.16.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "System.Configuration.ConfigurationManager": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Stripe.net.dll": {
-            "assemblyVersion": "40.17.0.0",
-            "fileVersion": "40.17.0.0"
+            "assemblyVersion": "40.16.0.0",
+            "fileVersion": "40.16.0.0"
           }
         }
       },
@@ -817,7 +817,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10",
           "Microsoft.IdentityModel.Tokens": "6.25.0",
-          "Stripe.net": "40.17.0-beta.1",
+          "Stripe.net": "40.16.0",
           "System.IdentityModel.Tokens.Jwt": "6.25.0"
         },
         "runtime": {
@@ -832,7 +832,6 @@
           "Microsoft.IdentityModel": "7.0.0",
           "Shop.Core": "1.0.0",
           "StackExchange.Redis": "2.6.70",
-          "Stripe.net": "40.17.0-beta.1",
           "System.IdentityModel.Tokens.Jwt": "6.25.0"
         },
         "runtime": {
@@ -1295,12 +1294,12 @@
       "path": "stackexchange.redis/2.6.70",
       "hashPath": "stackexchange.redis.2.6.70.nupkg.sha512"
     },
-    "Stripe.net/40.17.0-beta.1": {
+    "Stripe.net/40.16.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fZ+xamD4JTW7MWE/gLGfosYbTUAnI+mwiQAL0YV1jWySCdxvd9TdI5TPtjl2trfiH3uNu0ossC4C5MGnCELnBQ==",
-      "path": "stripe.net/40.17.0-beta.1",
-      "hashPath": "stripe.net.40.17.0-beta.1.nupkg.sha512"
+      "sha512": "sha512-2qC8izhWx/551uXBsD7fh97kRUOwOVgYA6Vnb/tRBvVfJGi/bofDcSq5p7B483TlRlMK5ejAVpuaucBFhK7JiA==",
+      "path": "stripe.net/40.16.0",
+      "hashPath": "stripe.net.40.16.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.2.3": {
       "type": "package",

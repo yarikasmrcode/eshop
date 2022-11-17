@@ -2,16 +2,15 @@
 using Microsoft.AspNetCore.Mvc;
 using Shop.Core.Entities;
 using Shop.Core.Interfaces;
-using Stripe;
 
 namespace Shop.Api.Controllers
 {
     public class PaymentsController : BaseApiController
     {
         private readonly IPaymentService _paymentService;
-        public PaymentsController(IPaymentService service)
+        public PaymentsController(IPaymentService paymentService)
         {
-            _paymentService = service;
+            _paymentService = paymentService;
         }
 
         [Authorize]
@@ -19,6 +18,6 @@ namespace Shop.Api.Controllers
         public async Task<ActionResult<CustomerBasket>> CreateOrUpdatePaymentIntent(string basketId)
         {
             return await _paymentService.CreateOrUpdatePaymentIntent(basketId);
-        }
+        } 
     }
 }

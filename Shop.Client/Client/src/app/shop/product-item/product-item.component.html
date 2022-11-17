@@ -7,9 +7,9 @@
     </div>
   </div>
   <div class="card-body d-flex">
-    <a routerLink="/shop/{{product.id}}">
+    <a style="color: black; text-decoration: none;" routerLink="/shop/{{product.id}}">
       <h6 class="text-uppercase">{{product.name}}</h6>
+      <span class="mb-2">{{product.price | currency}}</span>
     </a>
-    <span class="mb-2">{{product.price | currency}}</span>
   </div>
 </div>

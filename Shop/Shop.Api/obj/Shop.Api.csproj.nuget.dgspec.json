@@ -150,7 +150,7 @@
             },
             "Stripe.net": {
               "target": "Package",
-              "version": "[40.17.0-beta.1, )"
+              "version": "[40.16.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -247,10 +247,6 @@
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.6.70, )"
-            },
-            "Stripe.net": {
-              "target": "Package",
-              "version": "[40.17.0-beta.1, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

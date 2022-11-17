@@ -31,7 +31,7 @@ namespace Shop.Api.Controllers
             return Ok();
         }
 
-        [HttpGet("servererror")]
+        [HttpGet("server-error")]
         public ActionResult GetServerError()
         {
             var thing = _context.Products.Find(42);

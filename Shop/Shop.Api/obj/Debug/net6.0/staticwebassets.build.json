@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wrAndHYtYRXbBrBkdFJx2xfFXytv3U5J/0sh+VlwoQs=",
+  "Hash": "d/mIwdqnt3SqJ5glIQCy48asIsuV5OR7ND9ZM8eJNi0=",
   "Source": "Shop.Api",
   "BasePath": "_content/Shop.Api",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "A:\\AmdarisFinalProject\\Shop\\Shop.Api\\wwwroot\\images\\products\\adidassuper.jpg",
+      "SourceId": "Shop.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\AmdarisFinalProject\\Shop\\Shop.Api\\wwwroot\\",
+      "BasePath": "_content/Shop.Api",
+      "RelativePath": "images/products/adidassuper.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\adidassuper.jpg"
+    },
+    {
+      "Identity": "A:\\AmdarisFinalProject\\Shop\\Shop.Api\\wwwroot\\images\\products\\nikeair.jpg",
+      "SourceId": "Shop.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\AmdarisFinalProject\\Shop\\Shop.Api\\wwwroot\\",
+      "BasePath": "_content/Shop.Api",
+      "RelativePath": "images/products/nikeair.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\nikeair.jpg"
+    },
     {
       "Identity": "A:\\AmdarisFinalProject\\Shop\\Shop.Api\\wwwroot\\images\\products\\pic.jpg",
       "SourceId": "Shop.Api",

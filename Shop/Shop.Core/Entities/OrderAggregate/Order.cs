@@ -8,7 +8,7 @@ namespace Shop.Core.Entities.OrderAggregate
 {
     public class Order : BaseEntity
     {
-        public Order()
+        public Order() 
         {
 
         }

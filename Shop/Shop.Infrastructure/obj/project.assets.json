@@ -1002,7 +1002,7 @@
           }
         }
       },
-      "Stripe.net/40.17.0-beta.1": {
+      "Stripe.net/40.16.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
@@ -1448,7 +1448,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10",
           "Microsoft.IdentityModel.Tokens": "6.25.0",
-          "Stripe.net": "40.17.0-beta.1",
+          "Stripe.net": "40.16.0",
           "System.IdentityModel.Tokens.Jwt": "6.25.0"
         },
         "compile": {
@@ -2666,10 +2666,10 @@
         "stackexchange.redis.nuspec"
       ]
     },
-    "Stripe.net/40.17.0-beta.1": {
-      "sha512": "fZ+xamD4JTW7MWE/gLGfosYbTUAnI+mwiQAL0YV1jWySCdxvd9TdI5TPtjl2trfiH3uNu0ossC4C5MGnCELnBQ==",
+    "Stripe.net/40.16.0": {
+      "sha512": "2qC8izhWx/551uXBsD7fh97kRUOwOVgYA6Vnb/tRBvVfJGi/bofDcSq5p7B483TlRlMK5ejAVpuaucBFhK7JiA==",
       "type": "package",
-      "path": "stripe.net/40.17.0-beta.1",
+      "path": "stripe.net/40.16.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2685,7 +2685,7 @@
         "lib/netcoreapp3.1/Stripe.net.xml",
         "lib/netstandard2.0/Stripe.net.dll",
         "lib/netstandard2.0/Stripe.net.xml",
-        "stripe.net.40.17.0-beta.1.nupkg.sha512",
+        "stripe.net.40.16.0.nupkg.sha512",
         "stripe.net.nuspec"
       ]
     },
@@ -3520,7 +3520,6 @@
       "Microsoft.IdentityModel >= 7.0.0",
       "Shop.Core >= 1.0.0",
       "StackExchange.Redis >= 2.6.70",
-      "Stripe.net >= 40.17.0-beta.1",
       "System.IdentityModel.Tokens.Jwt >= 6.25.0"
     ]
   },
@@ -3598,10 +3597,6 @@
           "StackExchange.Redis": {
             "target": "Package",
             "version": "[2.6.70, )"
-          },
-          "Stripe.net": {
-            "target": "Package",
-            "version": "[40.17.0-beta.1, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
